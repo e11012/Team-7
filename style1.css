@@ -17,6 +17,7 @@ nav {
   font-family: "Poppins", sans-serif;
 }
 
+
 .logo a {
   position: relative;
   color: rgb(226, 226, 226);
@@ -29,6 +30,8 @@ nav {
 
 body {
   margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 * {
   margin: 0;

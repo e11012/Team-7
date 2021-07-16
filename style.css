@@ -85,7 +85,6 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
-
     width: 100%;
     transform: translateX(100%);
     transform: transform 0.5s ease-in;
@@ -138,7 +137,7 @@ nav {
   section {
     padding: 8em 0em;
   }
-  .hero .container {
+  .hero .container{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -161,9 +160,6 @@ nav {
   .hero-img {
     width: 30%;
     margin-right: 8em;
-  }
-  .hero-cta {
-    display: flex;
   }
 }
 

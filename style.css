@@ -125,9 +125,7 @@ nav {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
-.hero-img {
-  border-radius: 90px;
-}
+
 
 .home-text {
   text-align: justify;
@@ -135,7 +133,7 @@ nav {
 
 @media only screen and (min-width: 1080px) {
   section {
-    padding: 8em 0em;
+    padding: 5em 0em;
   }
   .hero .container{
     display: -webkit-box;
@@ -150,31 +148,42 @@ nav {
     margin: 0;
   }
   .hero .left-col h1 {
-    font-size: 2em;
-    width: 100%;
-    padding: 50px 60px;
+  font-size: 2em;
+    width: 96%;
+    padding: 0px 60px;
+    margin-top:15%;
   }
   .hero .left-col p {
-    padding: 0px 60px;
+    padding: 40px 60px;
   }
   .hero-img {
     width: 30%;
     margin-right: 8em;
+    border-radius: 90px;
+  }
+  .left-col .subhead {
+    color: white;
   }
 }
 
 .left-col .subhead {
-  text-transform: uppercase;
-  font-weight: bold;
   color: white;
-  letter-spacing: 0.3em;
 }
+.hero-img {
+  margin-left: 5em;
+  border-radius: 90px;
+  margin-top:5%;
 
+}
 .left-col h1 {
-  font-size: 1.9em;
+  font-size: 1.3em;
   line-height: 1.3em;
-}
 
+}
+.hero .left-col p {
+  font-size: 1.0em;
+
+}
 .left-col {
   background: var(--primary-color);
   color: white;

@@ -85,17 +85,18 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100%;
     transform: translateX(100%);
+    width: 100%;
     transform: transform 0.5s ease-in;
   }
-
   .nav-links li {
     opacity: 0;
+
   }
 
   .burger {
     display: block;
+
   }
 }
 
@@ -131,7 +132,7 @@ nav {
   text-align: justify;
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1020px) {
   section {
     padding: 5em 0em;
   }
@@ -181,6 +182,8 @@ nav {
 }
 .hero .left-col p {
   font-size: 1.0em;
+  margin-top:1em;
+
 }
 .left-col {
   background: var(--primary-color);
